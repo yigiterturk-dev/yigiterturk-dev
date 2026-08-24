@@ -1,36 +1,40 @@
 # Hi, I’m Yigit.
 
-I’m a product-minded full-stack engineer focused on operational software, data-heavy products, and developer experience. I like turning complicated workflows into calm interfaces—and making the system underneath observable enough to deserve that calm.
+I’m a full-stack and AI product engineer building reliable, data-heavy operational software. My work spans TypeScript, React, Next.js, Node.js, Python, PostgreSQL, voice AI, and geospatial data pipelines.
 
-## Selected work
+I care about turning complicated workflows into calm interfaces—and making the systems underneath observable, testable, and honest about their limits.
 
-| Project | What it demonstrates | Status |
-| --- | --- | --- |
-| ClinEntra (private pilot) | Evidence-linked clinical-trial monitoring, tenant-scoped operational review, backups, delivery gates, and explicit product boundaries | `npm run ci`: 19 verification flows + build |
-| [VoiceOps Studio](https://github.com/yigiterturk-dev/voiceops-studio) | Ten-locale voice operations, provider fallbacks, signed telephony, consented records, quotas, and white-label readiness | 27 tests + type-check + build |
-| [LLM Output Contract](https://github.com/yigiterturk-dev/llm-output-contract) | Provider-independent extraction, bounded structural guards, and JSON Schema validation for untrusted model text | 9 tests + type-check + build; public CI green |
-| [ProofRepo](https://github.com/yigiterturk-dev/proofrepo) | Evidence-first repository showcase audit with Markdown/JSON output and explicit claim boundaries | 3 tests + type-check + build; public CI green |
-| [SecretProof](https://github.com/yigiterturk-dev/secretproof) | Local-first worktree, staged, and history secret scanning with redacted fingerprints, allowlists, SARIF, and pre-commit support | 8 tests + type-check + build; public CI green |
-| [Engineering Skills](https://github.com/yigiterturk-dev/engineering-skills) | Fourteen evidence-first Codex skills with deterministic scanners, fixtures, CI, and claim boundaries | 19 unit tests |
-| [Terralot v2](https://github.com/yigiterturk-dev/terralot-v2) | GIS-oriented product engineering, underwriting workflows, and a multi-app real-estate monorepo | Public CI: 69/69 tests |
-| [EmlakAklı](https://github.com/yigiterturk-dev/emlakakli) | Real-estate intelligence with deterministic scoring, generated routes, and explicit data fallbacks | Public CI: 97/97 tests |
-| [Nocturn Suite](https://github.com/yigiterturk-dev/nocturndev) | Early-access product storytelling, canvas interaction, multi-page web craft, and fail-closed lead delivery | Public CI: 28/28 tests |
+## Featured work
 
-Verification snapshot: 2026-08-16. ClinEntra, VoiceOps Studio, LLM Output Contract, ProofRepo, SecretProof, and Engineering Skills were reproduced locally using their documented validation commands. The three focused developer tools also completed public GitHub CI runs. The remaining counts come from current public CI; public CI remains the source of truth for pushed revisions.
+### [VoiceOps Studio](https://github.com/yigiterturk-dev/voiceops-studio)
+
+A multilingual voice-operations console with streaming speech, provider fallbacks, signed telephony workflows, consent controls, usage limits, and optional encrypted records.
+
+`TypeScript` · `React` · `Express` · `Voice AI` · `Twilio`
+
+### [TerraLot](https://github.com/yigiterturk-dev/terralot-v2)
+
+A land-acquisition research system that connects public-record ingestion, geospatial enrichment, underwriting rules, and deal review while preserving missing-data and confidence boundaries.
+
+`TypeScript` · `Next.js` · `PostgreSQL` · `GIS` · `Data pipelines`
+
+### [Engineering Skills](https://github.com/yigiterturk-dev/engineering-skills)
+
+An open-source collection of agent skills and deterministic scanners for repository security, architecture, delivery, operations, and engineering handoffs.
+
+`Python` · `Developer tools` · `DevSecOps` · `Codex`
+
+## Smaller developer tools
+
+- [LLM Output Contract](https://github.com/yigiterturk-dev/llm-output-contract) — extracts and validates structured JSON from untrusted model output.
+- [ProofRepo](https://github.com/yigiterturk-dev/proofrepo) — maps the evidence that makes a repository ready to show recruiters, clients, or collaborators.
+- [SecretProof](https://github.com/yigiterturk-dev/secretproof) — scans Git worktrees, staged changes, and history for secrets without printing sensitive values.
 
 ## How I work
 
-- Model the domain and failure states before polishing the happy path.
+- Model the domain, failure states, and trust boundaries before polishing the happy path.
 - Keep credentials, authorization, and destructive actions behind explicit server boundaries.
-- Make architecture, limitations, tests, and decisions reviewable in the repository.
-- Treat responsive behavior, accessibility, and performance as product requirements.
-- Prefer honest evidence over inflated scale or “production-ready” claims.
+- Make setup, architecture, validation commands, limitations, and operational decisions reviewable.
+- Treat responsive behavior, accessibility, observability, and performance as product requirements.
 
-## What reviewers can inspect
-
-- Reproducible setup and verification commands in every README.
-- CI workflows, environment templates, licenses, security policies, and claim audits.
-- Explicit distinctions between implemented behavior, demo adapters, proposed scope, and measured results.
-- Desktop/mobile visual evidence where interface quality is central to the case study.
-
-The current flagship is ClinEntra: an evidence-first clinical-trial intelligence pilot that keeps source provenance attached to operational review. Explore the projects above, view my [portfolio](https://yigiterturk-dev.github.io/yigit-portfolio/), or reach me through [LinkedIn](https://www.linkedin.com/in/yigiterturk/).
+[Portfolio](https://yigiterturk-dev.github.io/yigit-portfolio/) · [LinkedIn](https://www.linkedin.com/in/yigiterturk/)
