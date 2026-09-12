@@ -37,4 +37,4 @@ An open-source collection of agent skills and deterministic scanners for reposit
 - Make setup, architecture, validation commands, limitations, and operational decisions reviewable.
 - Treat responsive behavior, accessibility, observability, and performance as product requirements.
 
-[Portfolio](https://yigiterturk-dev.github.io/yigit-portfolio/) · [LinkedIn](https://www.linkedin.com/in/yigiterturk/)
+[Portfolio](https://yigit-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/yigiterturk/)
